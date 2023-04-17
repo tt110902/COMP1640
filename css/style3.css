@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.font-Ubuntu {
+    font-family: Ubuntu;
+}
+
+body{
+    display: grid;
+    background-color: #ffffff;
+    align-content: center;
+    height: 100%;
+    min-height: 100vh;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 90vh;
+    width: 85vw;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.map{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: center/cover no-repeat;
+}
+.content{
+    /* background: #ffffff; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.content h2{
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: #141a35;
+}
+.content h2{
+    text-transform: uppercase;
+    color: #141a35;
+    font-size: 36px;
+    letter-spacing: 6px;
+    opacity: 0.9;
+}
+
+.content span{
+    height: 0.5px;
+    width: 80px;
+    background: #777;
+    margin: 30px 0;
+}
+.content p{
+    padding-bottom: 15px;
+    color: #141a35;
+    font-weight: 200;
+    opacity: 0.9;
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+.links{
+    margin: 15px 0;
+}
+.links li{
+    border: 0.5px solid #141a35;
+    border: 0.5px solid #777;
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 160px;
+    text-align: center;
+}
+.links li a{
+    text-transform: uppercase;
+    color: #141a35;
+    text-decoration: none;
+}
+.links li:hover{
+    border-color: #00bcd4;
+}
+.links li:hover a{
+    color :#141a35;
+    text-decoration: none;
+}
+.links li:hover{
+    border-color: #00bcd4;
+}
+.links li:hover a{
+    color :#00bcd4;
+}
+.vertical-line{
+    height: 30px;
+    width: 0.5px;
+    background: #777;
+    margin: 0 auto;
+}
+
+
+/*****************/
+
+@media(max-width: 992px){
+    section{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .image{
+        height: 100vh;
+    }
+    .content{
+        height: 100vh;
+    }
+    .content h2{
+        color: #141a35;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .content span{
+        margin: 20px 0;
+    }
+    .content p{
+        color: #141a35;
+        font-size: 14px;
+    }
+    .links li a{
+        font-size: 14px;
+    }
+    .links{
+        margin: 5px 0;
+    }
+    .links li{
+        padding: 6px 10px;
+    }
+    .icons li i{
+        font-size: 15px;
+    }
+}

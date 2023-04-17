@@ -1,0 +1,80 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(11, 105, 182) 0%,
+    rgb(190, 225, 250) 100%
+  );
+}
+
+.form-wrapper {
+  margin-top: 2%;
+  border-top: 1px solid white;
+  width: 40%;
+  margin-left: 30%;
+}
+
+h3 {
+  letter-spacing: 1.5px;
+  margin-top: 15%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+input {
+  background-color: #f7fafa;
+  color: #0a7685;
+  margin-left: 22%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  height: 7%;
+  width: 55%;
+  border: none;
+}
+
+input[name="email"] {
+  margin-top: 30px;
+}
+.button {
+  color: white;
+  background-color: #0a7685;
+}
+
+.member {
+  margin-left: -5%;
+  margin-right: 2%;
+}
+
+.reminder {
+  margin-left: 35%;
+  margin-bottom: 20px;
+}
+img {
+  width: 14%;
+  height: 8%;
+  position: absolute;
+  margin-top: -3%;
+  margin-left: 42%;
+}
+
+.signUp {
+  font-size: 12px;
+  background-color: #f7fafa;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #0a7685;
+  border: 1px solid #fff;
+}
+
+.button,
+#name,
+#date,
+#phone,
+#mail,
+#pass,
+#password {
+  height: 45px;
+}
